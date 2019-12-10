@@ -1,19 +1,18 @@
 x = int(input("please enter the value of x"))
 
-if x<0:
+if x < 0:
     print("x is negative number")
-elif x>0:
+elif x > 0:
     print("x is positive number")
-elif x==0:
+elif x == 0:
     print("x is equals to zero")
 else:
     print("Not defined")
 
 if True:
     print("PASS")
-else: #dead code
+else:  # dead code
     print("FAIL")
-
 
 a = 100
 b = 200
@@ -26,7 +25,6 @@ elif b > c:
 else:
     print("c is largest number")
 
-
 total = int(input("enter the total value"))
 if total < 100:
     total = total + 20
@@ -36,6 +34,5 @@ else:
     total = total + 100
 
 print(total)
-print("total="+str(total))
+print("total=" + str(total))
 print(f'{"total value is "}{total}')
-
